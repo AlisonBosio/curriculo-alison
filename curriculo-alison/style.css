@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size:16px;
+}
+
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+aside {
+  position: fixed;
+  width: 35%;
+  background-color: #53A65F;  
+  height: 100%;
+}
+
+aside h1 {
+  color: #FFFFFF;
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+aside p {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+
+}
+
+.aside-content {
+  text-align: center;
+  position: relative;
+  top: 50%;
+}
+
+
+.dados {
+  padding-right: 1rem;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 3.75rem;
+  left: 37.5rem;
+  color: #2c3a32;
+}
+
+.dados p {
+  padding-top:1rem;
+  font-weight: bold;
+}
+
+.dados h3 {
+  font-size: 2.5rem;
+}
+
+.dados ul {
+  list-style:none;
+  padding-bottom: 1.3rem;
+}
+
+.dados li { 
+  padding-left: 1.625rem;
+  padding-bottom: 1rem; 
+}
+
+.dados li::before {
+  content: "➥"; 
+  color:  #53A65F;
+  font-size: 1.5rem;
+  padding-right: 0.125rem;
+}
+
+hr {
+ border-top: 0.1rem solid  #53A65F;
+}
