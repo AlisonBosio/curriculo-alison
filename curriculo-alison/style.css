@@ -15,7 +15,7 @@ body {
 }
 aside {
   position: fixed;
-  width: 35%;
+  width: 30%;
   background-color: #53A65F;  
   height: 100%;
 }
@@ -35,22 +35,52 @@ aside p {
 .aside-content {
   text-align: center;
   position: relative;
-  top: 50%;
+  top: 35%;
+}
+
+.aside-contact {
+  text-align: center;
+  position: relative;
+  top: 60%;
+
+}
+
+.aside-contact h3 {
+  font-size:1.5rem;
+}
+.aside-contact li {
+  display: inline-block;
+  padding:0.5rem;
+  color: #FFFFFF;
+}
+
+.social {
+  text-align: center;
+  position: relative;
+  top: 5%;
+}
+.social a i {
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+  font-size: 4rem;
+
 }
 
 
 .dados {
-  padding-right: 1rem;
+  padding-right: 8rem;
   background-color: #FFFFFF;
   position: absolute;
   top: 3.75rem;
-  left: 37.5rem;
+  left: 30rem;
   color: #2c3a32;
 }
 
 .dados p {
   padding-top:1rem;
   font-weight: bold;
+  color:#53A65F; ;
 }
 
 .dados h3 {
@@ -64,7 +94,8 @@ aside p {
 
 .dados li { 
   padding-left: 1.625rem;
-  padding-bottom: 1rem; 
+  padding-bottom: 0.1rem; 
+
 }
 
 .dados li::before {
@@ -77,3 +108,17 @@ aside p {
 hr {
  border-top: 0.1rem solid  #53A65F;
 }
+
+i {
+  color:black;
+  font-size: 40px;
+}
+
+.fa-whatsapp, 
+.fa-envelope{
+  color: white;
+  font-size: 1.12rem;
+  padding:0.2rem;
+}
+
+
